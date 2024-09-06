@@ -1,3 +1,5 @@
+'use client'
+import { FloatingDockDemo } from '@/components/FloatingDockDemo'
 import { TypewriterEffectSmoothDemo } from '@/components/TypewriterEffectSmoothDemo'
 import Image from 'next/image'
 import React from 'react'
@@ -21,9 +23,17 @@ const ProfilePage = () => {
           {/* <h1> hey yo</h1> */}
           <TypewriterEffectSmoothDemo />
           <span className='lg:text-2xl flex flex-col gap-3 -mt-5 py-2'>
-          <p>An Aspiring Computer Science Engineer with a passion for solving complex problems and building innovative solutions. </p>
-          <p> Currently pursuing a degree in Computer Science and Engineering, I am skilled in software development, data structures, and algorithms.</p>
-          <p>Eager to apply my knowledge through hands-on projects and real-world experience.</p>
+            <p>An Aspiring Computer Science Engineer with a passion for solving complex problems and building innovative solutions. </p>
+            <p> Currently pursuing a degree in Computer Science and Engineering, I am skilled in software development, data structures, and algorithms.</p>
+            <p>Eager to apply my knowledge through hands-on projects and real-world experience.</p>
+            <div className='flex flex-wrap md:flex-nowrap items-center justify-between lg:mt-10'>
+              <div className='border-4 border-blue-600 rounded-full cursor-pointer text-center mx-auto bg-[#2effe0]'>
+                <h1 className='py-3 px-10 lg:px-10 text-black font-bold lg:text-3xl'>Resume</h1>
+              </div>
+              <div className='w-full'>
+                <FloatingDockDemo />
+              </div>
+            </div>
           </span>
         </div>
       </div>
