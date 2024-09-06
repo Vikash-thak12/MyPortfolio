@@ -1,10 +1,10 @@
-import React from 'react'
+
 
 const ProjectsPage = () => {
   return (
-    <div>
-        <h1>This is Projects Page</h1>
-    </div>
+    <main className='w-[80%] border mx-auto p-5'>
+      {/* <Languages /> */}
+    </main>
   )
 }
 

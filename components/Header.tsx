@@ -7,8 +7,8 @@ import { usePathname } from 'next/navigation'
 const Header = () => {
     const path = usePathname()
     return (
-        <main className='border rounded-full mt-5 w-[95%] lg:w-[40%] md:w-[50%] fixed left-1/2 transform -translate-x-1/2'>
-            <div className='flex items-center justify-center py-5 gap-2 lg:gap-5 lg:py-8'>
+        <main className='z-50 border rounded-full mt-5 w-[95%] md:w-[70%] lg:w-[40%] fixed left-1/2 transform -translate-x-1/2 bg-black'>
+            <div className='flex items-center justify-center py-5 gap-2 lg:gap-5 lg:py-6'>
                 {
                     navItems.map((item) => (
                         <Link href={item.link} key={item.link}>

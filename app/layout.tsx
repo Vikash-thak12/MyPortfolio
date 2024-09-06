@@ -29,10 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="h-screen w-full">
+        <div className="h-screen w-full bg-black">
           <div className="flex">
-          <Header />
-          {children}
+            <Header />
+            <div className="mt-28 lg:mt-32 w-full">
+              {children}
+            </div>
           </div>
         </div>
       </body>
