@@ -3,29 +3,30 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-// import Link from "next/link";
 import { projects } from "@/data";
+import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 
 export function ThreeDCardDemo() {
   return (
     <>
-    <h1 className="text-center font-bold text-3xl">My Projects</h1>
+      <h1 className="text-center font-bold text-3xl">My Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 -gap-10">
         {
-          projects.map(({ id, title, des, img }) => (
+          projects.map(({ id, title, des, img, iconLists, link }) => (
             <div key={id} className="w-full max-w-xs mx-auto">
               <CardContainer className="inter-var">
                 <CardBody className="bg-black relative group/card w-full h-auto rounded-xl p-4 border border-gray-500">
                   <CardItem
                     translateZ="50"
-                    className="line-clamp-1 text-xl font-bold text-neutral-600 dark:text-white"
+                    className="line-clamp-1 text-xl font-bold text-white"
                   >
                     {title}
                   </CardItem>
                   <CardItem
                     as="p"
                     translateZ="60"
-                    className="text-neutral-500 line-clamp-2 text-sm max-w-full mt-2 dark:text-neutral-300"
+                    className="line-clamp-2 text-sm max-w-full mt-2 text-gray-400"
                   >
                     {des}
                   </CardItem>
@@ -38,7 +39,7 @@ export function ThreeDCardDemo() {
                       className="h-48 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                     />
                   </CardItem>
-                  {/* <div className="flex items-center justify-between mt-7 mb-3">
+                  <div className="flex items-center justify-between mt-7 mb-3">
                     <div className="flex items-center">
                       {
                         iconLists.map((icon, index) => (
@@ -46,16 +47,19 @@ export function ThreeDCardDemo() {
                             style={{
                               transform: `translateX(-${5 * index * 2}px)`
                             }}>
-                            <img src={icon} alt={icon} className="p-2" />
+                            <Image src={icon} alt={icon} width={32} height={32} />
                           </div>
                         ))
                       }
                     </div>
-                    <div className="flex items-center justify-center gap-3 border lg:p-3 rounded-2xl bg-black-100 p-2">
-                      <p className="text-purple text-[10px] md:text-sm">Check Live Site</p>
-                      <FaLocationArrow />
-                    </div>
-                  </div> */}
+                    <Link href={link} target="_blank">
+                      <div className="flex items-center justify-center gap-3 border lg:p-3 rounded-2xl bg-black-100 p-2 hover:bg-gray-500">
+                        <p className="text-purple text-[10px] md:text-sm">Check Live Site</p>
+                        <FaLocationArrow />
+                      </div>
+                    </Link>
+                  </div>
+
                   {/* <div className="flex justify-between items-center mt-20">
                     <CardItem
                       translateZ={20}
