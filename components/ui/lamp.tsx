@@ -16,7 +16,7 @@ export function LampDemo() {
         }}
         className="bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Hi 👋 <br /> I'm Vikash Thakur
+        Hi 👋 <br /> I&aposm Vikash Thakur
       </motion.h1>
     </LampContainer>
   );
