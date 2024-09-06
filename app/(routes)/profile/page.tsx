@@ -28,7 +28,13 @@ const ProfilePage = () => {
             <p>Eager to apply my knowledge through hands-on projects and real-world experience.</p>
             <div className='flex flex-wrap md:flex-nowrap items-center justify-between lg:mt-10'>
               <div className='border-4 border-blue-600 rounded-full cursor-pointer text-center mx-auto bg-[#2effe0]'>
-                <h1 className='py-3 px-10 lg:px-10 text-black font-bold lg:text-3xl'>Resume</h1>
+                <a
+                  href="/Resume.pdf"
+                  download="Resume.pdf" // This will make the browser download the file
+                  className='border-2 border-none rounded-full cursor-pointer text-center mx-auto bg-[#2effe0] block'
+                >
+                  <h1 className='py-3 px-10 lg:px-10 text-black font-bold lg:text-3xl'>Resume</h1>
+                </a>
               </div>
               <div className='w-full'>
                 <FloatingDockDemo />
