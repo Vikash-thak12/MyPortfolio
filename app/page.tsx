@@ -11,7 +11,9 @@ export default function Home() {
         <Hometypewriter />
       </div>
     </main>
+    <div className="">
     <LampDemo />
+    </div>
     </>
   );
 }

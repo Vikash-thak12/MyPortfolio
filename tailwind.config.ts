@@ -9,6 +9,16 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		keyframes: {
+			wave: {
+			  '0%': { transform: 'rotate(0deg)' },
+			  '50%': { transform: 'rotate(15deg)' },
+			  '100%': { transform: 'rotate(0deg)' }
+			}
+		  },
+		  animation: {
+			wave: 'wave 1s ease-in-out infinite'
+		  },	
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

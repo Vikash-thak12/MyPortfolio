@@ -1,9 +1,10 @@
+import { ThreeDCardDemo } from "@/components/ThreeDCardDemo"
 
 
 const ProjectsPage = () => {
   return (
-    <main className='w-[80%] border mx-auto p-5'>
-      {/* <Languages /> */}
+    <main className='w-[90%] lg:w-[70%] border rounded-2xl mx-auto p-5'>
+      <ThreeDCardDemo />
     </main>
   )
 }

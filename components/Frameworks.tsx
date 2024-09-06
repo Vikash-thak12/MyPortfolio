@@ -15,7 +15,7 @@ const Frameworks = () => {
             width={40}
             height={40}
           />
-          <span className='font-bold text-xl sm:text-2xl text-white'>Next.js</span>
+          <span className='font-bold text-xl sm:text-2xl text-white'>Next</span>
         </div>
         <div className='border flex items-center gap-3 px-4 py-2 sm:px-5 sm:py-3 max-w-[220px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
           <Image
@@ -25,6 +25,15 @@ const Frameworks = () => {
             height={40}
           />
           <span className='font-bold text-xl sm:text-2xl text-white'>React</span>
+        </div>
+        <div className='border flex items-center gap-3 px-4 py-2 sm:px-5 sm:py-3 max-w-[220px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
+          <Image
+            src='/assets/nodejs.svg'
+            alt='React Icon'
+            width={40}
+            height={40}
+          />
+          <span className='font-bold text-xl sm:text-2xl text-white'>Node</span>
         </div>
         <div className='border flex items-center gap-3 px-4 py-2 sm:px-5 sm:py-3 max-w-[220px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
           <Image
