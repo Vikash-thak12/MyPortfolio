@@ -1,5 +1,5 @@
-// 'use client'
-// import { FloatingDockDemo } from '@/components/FloatingDockDemo'
+'use client'
+import { FloatingDockDemo } from '@/components/FloatingDockDemo'
 import { TypewriterEffectSmoothDemo } from '@/components/TypewriterEffectSmoothDemo'
 import Image from 'next/image'
 import React from 'react'
@@ -11,7 +11,6 @@ const ProfilePage = () => {
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 p-2'>
         <div className='p-5 rounded-3xl flex items-center justify-center'>
           <Image
-            // src="/profile.jpg"
             src="/vikash.png"
             alt='Profile Picture'
             width={500}
@@ -35,9 +34,9 @@ const ProfilePage = () => {
                   <h1 className='py-3 px-10 lg:px-10 text-black font-bold lg:text-3xl'>Resume</h1>
                 </a>
               </div>
-              {/* <div className='w-full'>
+              <div className='w-full'>
                 <FloatingDockDemo />
-              </div> */}
+              </div>
             </div>
           </span>
         </div>

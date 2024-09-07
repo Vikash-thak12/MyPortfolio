@@ -2,20 +2,20 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
-  IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandX,
+  IconHome,
 } from "@tabler/icons-react";
 // import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [
     {
-      title: "Instagram",
+      title: "Home",
       icon: (
-        <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.instagram.com/your-instagram-profile", 
+      href: "https://vikash-beta.vercel.app/", 
     },
     {
       title: "LinkedIn",
