@@ -36,7 +36,7 @@ export const navItems = [
       title: "Image Revamp",
       des: "A Web to Improve, renovate, or give a fresh and updated appearance to your Image.",
       img: "/imagerevamp.png",
-      iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/c.svg", "/assets/mongo.svg"],
+      iconLists: ["/assets/next.svg", "/assets/c.svg", "/assets/mongo.svg"],
       link: "https://imgrevamp.vercel.app/",
     }
   ];
