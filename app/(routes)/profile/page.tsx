@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import { FloatingDockDemo } from '@/components/FloatingDockDemo'
 import { TypewriterEffectSmoothDemo } from '@/components/TypewriterEffectSmoothDemo'
 import Image from 'next/image'
@@ -20,7 +20,6 @@ const ProfilePage = () => {
           />
         </div>
         <div className='border rounded-3xl px-5'>
-          {/* <h1> hey yo</h1> */}
           <TypewriterEffectSmoothDemo />
           <span className='lg:text-2xl flex flex-col gap-3 -mt-5 py-2'>
             <p>An Aspiring Computer Science Engineer with a passion for solving complex problems and building innovative solutions. </p>
@@ -36,9 +35,9 @@ const ProfilePage = () => {
                   <h1 className='py-3 px-10 lg:px-10 text-black font-bold lg:text-3xl'>Resume</h1>
                 </a>
               </div>
-              <div className='w-full'>
+              {/* <div className='w-full'>
                 <FloatingDockDemo />
-              </div>
+              </div> */}
             </div>
           </span>
         </div>

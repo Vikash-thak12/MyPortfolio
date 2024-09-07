@@ -13,7 +13,7 @@ export const navItems = [
       des: "Track Every Penny, Save Every Money – Master Your Budget and Control Your Future.",
       img: "/ss.png",
       iconLists: ["/assets/next.svg", "/assets/re.svg", "/assets/tail.svg"],
-      link: "https://trip-chi.vercel.app/",
+      link: "https://tracexpense.vercel.app/",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export const navItems = [
       des: "My Personal Portfolio to showcase my skills, projects with a beautiful User Interface",
       img: "/portfolio.png",
       iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/ts.svg",],
-      link: "https://trip-chi.vercel.app/",
+      link: "https://vikash-beta.vercel.app/",
     },
     {
       id: 4,
@@ -37,6 +37,6 @@ export const navItems = [
       des: "A Web to Improve, renovate, or give a fresh and updated appearance to your Image.",
       img: "/imagerevamp.png",
       iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/c.svg", "/assets/mongo.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://imgrevamp.vercel.app/",
     }
   ];
