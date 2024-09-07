@@ -1,5 +1,5 @@
 // 'use client'
-import { FloatingDockDemo } from '@/components/FloatingDockDemo'
+// import { FloatingDockDemo } from '@/components/FloatingDockDemo'
 import { TypewriterEffectSmoothDemo } from '@/components/TypewriterEffectSmoothDemo'
 import Image from 'next/image'
 import React from 'react'
