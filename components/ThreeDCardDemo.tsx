@@ -16,7 +16,7 @@ export function ThreeDCardDemo() {
           projects.map(({ id, title, des, img, iconLists, link }) => (
             <div key={id} className="w-full max-w-xs mx-auto">
               <CardContainer className="inter-var">
-                <CardBody className="bg-black relative group/card w-full h-auto rounded-xl p-4 border border-gray-500">
+                <CardBody className="bg-black relative group/card w-full h-auto rounded-xl p-4 border-4 border-gray-500">
                   <CardItem
                     translateZ="50"
                     className="line-clamp-1 text-xl font-bold text-white"
