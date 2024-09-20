@@ -17,7 +17,7 @@ export const navItems = [
     {
       id: 2,
       title: "AI Trip Planner",
-      des: "An intelligent, AI-driven app designed to revolutionize trip planning..",
+      des: "An intelligent, AI-driven app designed to revolutionize your trip planning..",
       img: "/trip.png",
       iconLists: ["/assets/re.svg", "/assets/tail.svg", "/assets/c.svg"],
       link: "https://trip-chi.vercel.app/",
