@@ -9,6 +9,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Zoom",
+      des: "Track Every Penny, Save Every Money – Master Your Budget and Control Your Future.",
+      img: "/ss.png",
+      iconLists: ["/assets/next.svg", "/assets/re.svg", "/assets/tail.svg"],
+      link: "https://tracexpense.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Expense Tracker",
       des: "Track Every Penny, Save Every Money – Master Your Budget and Control Your Future.",
       img: "/ss.png",
