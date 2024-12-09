@@ -9,10 +9,10 @@ export const navItems = [
     {
       id: 1,
       title: "Zoom",
-      des: "Track Every Penny, Save Every Money – Master Your Budget and Control Your Future.",
-      img: "/ss.png",
-      iconLists: ["/assets/next.svg", "/assets/re.svg", "/assets/tail.svg"],
-      link: "https://tracexpense.vercel.app/",
+      des: "A modern platform designed to provide seamless, real-time communication and collaboration. With features like high-quality video and audio, screen sharing, meeting recording, and secure authentication, it ensures a user-friendly experience across devices.",
+      img: "/zoom.png",
+      iconLists: ["/assets/next.svg", "/assets/c.svg", "/assets/ts.svg"],
+      link: "https://zoom-amber.vercel.app/",
     },
     {
       id: 2,
