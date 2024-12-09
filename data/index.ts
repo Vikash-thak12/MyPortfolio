@@ -23,7 +23,7 @@ export const navItems = [
       link: "https://tracexpense.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "AI Trip Planner",
       des: "An intelligent, AI-driven app designed to revolutionize your trip planning..",
       img: "/trip.png",
@@ -31,7 +31,7 @@ export const navItems = [
       link: "https://trip-chi.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Portfolio",
       des: "My Personal Portfolio to showcase my skills, projects with a beautiful User Interface",
       img: "/portfolio.png",
@@ -39,7 +39,7 @@ export const navItems = [
       link: "https://vikash-beta.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Image Revamp",
       des: "A Web to Improve, renovate, or give a fresh and updated appearance to your Image.",
       img: "/imagerevamp.png",
