@@ -7,6 +7,14 @@ export const navItems = [
 
   export const projects = [
     {
+      id: 0,
+      title: "Drive",
+      des: " A Google Drive clone built using advanced technologies, secure file uploads, file sharing, intuitive folder management, and seamless user authentication through OTP. This project offers efficient file storage and retrieval with a clean, user-friendly interface. ",
+      img: "/drive.png",
+      iconLists: ["/assets/next.svg", "/logo.png", "/assets/ts.svg"],
+      link: "https://drive-sigma-lac.vercel.app/",
+    },
+    {
       id: 1,
       title: "Zoom",
       des: "A modern platform designed to provide seamless, real-time communication and collaboration. With features like high-quality video and audio, screen sharing, meeting recording, and secure authentication, it ensures a user-friendly experience across devices.",
