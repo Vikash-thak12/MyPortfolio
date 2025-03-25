@@ -8,6 +8,14 @@ export const navItems = [
   export const projects = [
     {
       id: 0,
+      title: "Expense Tracker",
+      des: "A React.js-based web application designed to help users manage their finances efficiently. It allows users to track their income, expenses, and overall balance through interactive charts and an intuitive UI.",
+      img: "/expense.png",
+      iconLists: ["/assets/javascript.svg", "/assets/mongodb.svg", "/assets/react.svg"],
+      link: "https://coruscating-gnome-2212fe.netlify.app/dashboard",
+    },
+    {
+      id: 1,
       title: "Drive",
       des: " A Google Drive clone built using advanced technologies, secure file uploads, file sharing, intuitive folder management, and seamless user authentication through OTP. This project offers efficient file storage and retrieval with a clean, user-friendly interface. ",
       img: "/drive.png",
@@ -15,20 +23,12 @@ export const navItems = [
       link: "https://drive-sigma-lac.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Zoom",
       des: "A modern platform designed to provide seamless, real-time communication and collaboration. With features like high-quality video and audio, screen sharing, meeting recording, and secure authentication, it ensures a user-friendly experience across devices.",
       img: "/zoom.png",
       iconLists: ["/assets/next.svg", "/assets/c.svg", "/assets/ts.svg"],
       link: "https://zoom-amber.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "Expense Tracker",
-      des: "Track Every Penny, Save Every Money – Master Your Budget and Control Your Future.",
-      img: "/ss.png",
-      iconLists: ["/assets/next.svg", "/assets/re.svg", "/assets/tail.svg"],
-      link: "https://tracexpense.vercel.app/",
     },
     {
       id: 3,
