@@ -12,7 +12,7 @@ export const navItems = [
       des: "A React.js-based web application designed to help users manage their finances efficiently. It allows users to track their income, expenses, and overall balance through interactive charts and an intuitive UI.",
       img: "/expense.png",
       iconLists: ["/assets/javascript.svg", "/assets/mongodb.svg", "/assets/react.svg"],
-      link: "https://coruscating-gnome-2212fe.netlify.app/dashboard",
+      link: "https://trackyourex.netlify.app/dashboard",
     },
     {
       id: 1,
