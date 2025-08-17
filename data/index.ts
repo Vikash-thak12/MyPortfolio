@@ -9,7 +9,7 @@ export const projects = [
   {
     id: 0,
     title: "AI Resume Analyzer",
-    des: "AI Resume Analyzer is a Next.js app that uses Puter.js to upload and process resumes, providing AI-powered feedback on skills, formatting, and ATS compatibility.",
+    des: "AI Resume Analyzer is a React.js app that uses Puter.js to upload and process resumes, providing AI-powered feedback on skills, formatting, and ATS compatibility.",
     img: "/ai_resume_analyzer.png",
     iconLists: ["/assets/react.svg", "/assets/tailwind.svg", "/assets/javascript.svg"],
     link: "https://ai-resume-analyzer-hazel-six.vercel.app",
