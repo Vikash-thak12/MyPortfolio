@@ -17,6 +17,15 @@ const Tools = () => {
           />
           <span className='font-bold text-xl sm:text-2xl text-white'>Git</span>
         </div>
+        <div className='border flex items-center justify-center gap-3 px-4 py-3 min-w-[150px] max-w-[220px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
+          <Image
+            src='/assets/docker.svg'
+            alt='Git Icon'
+            width={32}
+            height={32}
+          />
+          <span className='font-bold text-xl sm:text-2xl text-white'>Docker</span>
+        </div>
       </div>
     </main>
   )
