@@ -14,8 +14,8 @@ const ProfilePage = () => {
             src="/vikash.png"
             alt='Profile Picture'
             width={500}
-            height={50}
-            className='rounded-full border-4 border-teal-400'
+            height={500}
+            className='rounded-full border-4 border-teal-400 object-cover aspect-square'
           />
         </div>
         <div className='border rounded-3xl px-5'>
