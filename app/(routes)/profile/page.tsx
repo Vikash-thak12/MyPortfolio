@@ -21,22 +21,29 @@ const ProfilePage = () => {
         <div className='border rounded-3xl px-5'>
           <TypewriterEffectSmoothDemo />
           <span className='lg:text-2xl flex flex-col gap-3 -mt-5 py-2'>
-            <p>An Aspiring Computer Science Engineer with a passion for solving complex problems and building innovative solutions. </p>
-            <p> Currently pursuing a degree in Computer Science and Engineering, I am skilled in software development, data structures, and algorithms.</p>
-            <p>Eager to apply my knowledge through hands-on projects and real-world experience.</p>
-            <div className='flex flex-wrap md:flex-nowrap items-center justify-between lg:mt-10'>
-              <div className='border-4 border-blue-600 rounded-full cursor-pointer text-center mx-auto bg-[#2effe0]'>
+            <p>Software Engineer with hands-on experience in Java, Spring Boot, and microservices development. </p>
+            <p>Experienced in building REST APIs, secure backend services using JWT and Spring Cloud Gateway, and integrating RabbitMQ, MySQL, and OpenAI APIs. </p>
+            <p>Passionate about building scalable backend systems and solving real-world software engineering problems.</p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mt-8">
+
+              {/* View Resume Button */}
+              <div className="border-4 border-blue-600 rounded-full bg-[#2effe0]">
                 <a
                   href="/Resume.pdf"
-                  download="Resume.pdf" // This will make the browser download the file
-                  className='border-2 border-none rounded-full cursor-pointer text-center mx-auto bg-[#2effe0] block'
+                  download="Resume.pdf"
+                  className="block"
                 >
-                  <h1 className='py-3 px-10 lg:px-10 text-black font-bold lg:text-3xl'>Resume</h1>
+                  <h1 className="py-4 px-10 text-black font-bold text-2xl whitespace-nowrap">
+                    View Resume
+                  </h1>
                 </a>
               </div>
-              <div className='w-full'>
+
+              {/* Social Links */}
+              <div>
                 <FloatingDockDemo />
               </div>
+
             </div>
           </span>
         </div>

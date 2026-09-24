@@ -2,8 +2,8 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
+  IconBrandLeetcode,
   IconBrandLinkedin,
-  IconBrandX,
   IconHome,
 } from "@tabler/icons-react";
 // import Image from "next/image";
@@ -25,11 +25,11 @@ export function FloatingDockDemo() {
       href: "https://www.linkedin.com/in/vikashthak/", 
     },
     {
-      title: "Twitter",
+      title: "Leetcode",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLeetcode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://twitter.com/vikashthak52906",
+      href: "https://leetcode.com/u/vikashthak8/",
     },
     {
       title: "GitHub",
