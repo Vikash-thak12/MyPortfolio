@@ -8,14 +8,6 @@ export const navItems = [
 export const projects = [
   {
     id: 0,
-    title: "AI Resume Analyzer",
-    des: "AI Resume Analyzer is a React.js app that uses Puter.js to upload and process resumes, providing AI-powered feedback on skills, formatting, and ATS compatibility.",
-    img: "/ai_resume_analyzer.png",
-    iconLists: ["/assets/react.svg", "/assets/tailwind.svg", "/assets/javascript.svg"],
-    link: "https://ai-resume-analyzer-hazel-six.vercel.app",
-  },
-  {
-    id: 1,
     title: "Expense Tracker",
     des: "A React.js-based web application designed to help users manage their finances efficiently. It allows users to track their income, expenses, and overall balance through interactive charts and an intuitive UI.",
     img: "/expense.png",
@@ -23,12 +15,20 @@ export const projects = [
     link: "https://trackyourex.netlify.app/login",
   },
   {
-    id: 2,
+    id: 1,
     title: "Drive",
     des: " A Google Drive clone built using advanced technologies, secure file uploads, file sharing, intuitive folder management, and seamless user authentication through OTP. This project offers efficient file storage and retrieval with a clean, user-friendly interface. ",
     img: "/drive.png",
     iconLists: ["/assets/next.svg", "/logo.png", "/assets/ts.svg"],
     link: "https://drive-sigma-lac.vercel.app/",
+  },
+    {
+    id: 2,
+    title: "AI Resume Analyzer",
+    des: "AI Resume Analyzer is a React.js app that uses Puter.js to upload and process resumes, providing AI-powered feedback on skills, formatting, and ATS compatibility.",
+    img: "/ai_resume_analyzer.png",
+    iconLists: ["/assets/react.svg", "/assets/tailwind.svg", "/assets/javascript.svg"],
+    link: "https://ai-resume-analyzer-hazel-six.vercel.app",
   },
   {
     id: 3,
