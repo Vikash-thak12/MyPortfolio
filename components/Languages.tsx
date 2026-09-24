@@ -10,6 +10,15 @@ const Languages = () => {
       <div className='flex flex-wrap items-center justify-center gap-5 py-2'>
         <div className='border flex items-center justify-center gap-3 px-4 py-3 lg:py-4 w-full max-w-[200px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
           <Image
+            src='/assets/java.svg'
+            alt='Java Icon'
+            width={32}
+            height={32}
+          />
+          <span className='font-bold text-xl sm:text-2xl text-white'>Java</span>
+        </div>
+        <div className='border flex items-center justify-center gap-3 px-4 py-3 lg:py-4 w-full max-w-[200px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
+          <Image
             src='/assets/javascript.svg'
             alt='JavaScript Icon'
             width={32}
@@ -25,15 +34,6 @@ const Languages = () => {
             height={32}
           />
           <span className='font-bold text-xl sm:text-2xl text-white'>TypeScript</span>
-        </div>
-        <div className='border flex items-center justify-center gap-3 px-4 py-3 lg:py-4 w-full max-w-[200px] bg-gray-800 rounded-xl cursor-pointer shadow-2xl shadow-gray-600'>
-          <Image
-            src='/assets/java.svg'
-            alt='Java Icon'
-            width={32}
-            height={32}
-          />
-          <span className='font-bold text-xl sm:text-2xl text-white'>Java</span>
         </div>
       </div>
     </main>
